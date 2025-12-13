@@ -38,6 +38,15 @@ You can run small checks to verify your setup:
 	python scripts/check_scripts/check_langchain_version.py
 	```
 
+## Pre-Run Health Tests
+Run the lightweight health checks and stress tests before launching:
+- **From project venv:**
+	```powershell
+	.\.venv\Scripts\Activate.ps1
+	.\.venv\Scripts\python.exe unit_tests/app_is_working.py
+	```
+This reports environment readiness, optional key presence, Ollama reachability, and simple stress tests.
+
 ## Optional: Using Ollama (Local LLM)
 If the app uses a local LLM via Ollama, install and run a model first:
 - **Install Ollama:** https://ollama.com

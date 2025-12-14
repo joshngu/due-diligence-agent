@@ -1,4 +1,4 @@
-# Endowment Simulator
+# Due Diligence Agent
 
 A simple guide to set up and run the Streamlit app.
 
